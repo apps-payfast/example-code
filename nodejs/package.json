@@ -1,0 +1,22 @@
+{
+  "name": "payfast-webcheckout-demo",
+  "version": "1.0.0",
+  "description": "PayFast Webcheckout demo code for Node JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apps-payfast/example-code/nodejs"
+  },
+  "keywords": [
+    "payfast",
+    "pakistan"
+  ],
+  "author": "Tech Team",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}

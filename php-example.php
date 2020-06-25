@@ -9,8 +9,8 @@
     </head>
     <body>
         <?php
-        $merchantid = "SOME_MERCHANT_ID";
-        $secret = "SOME_PASSWORD";
+        $merchantid = "SOME_MERCHANT_ID"; // Provided by Payfast
+        $secret = "SOME_SECURED_KEY"; // Provided by PayFast
 
         $merchantid = "99999";
         $secret = "xxxxxxxxxxx";
@@ -77,6 +77,9 @@
                             <div class="col-lg-6">
                                 <div class="form-group" >
                                     <label>Token</label>
+									<!--
+										Token value which was fetched earilier
+									-->
                                     <INPUT  class="form-control"  TYPE="TEXT" NAME="TOKEN" VALUE="<?php echo $token; ?>"  data-toggle="tooltip" role="tooltip" title="Temporary Token"> 
                                 </div>
                             </div>
